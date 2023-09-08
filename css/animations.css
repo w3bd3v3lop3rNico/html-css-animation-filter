@@ -1,0 +1,5 @@
+/* EX 1 */
+.ex-1-square:hover {
+    background-color: red;
+    transition: 3s;
+}
