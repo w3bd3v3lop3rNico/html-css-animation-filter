@@ -3,3 +3,12 @@
     background-color: red;
     transition: 3s;
 }
+
+/* EX 2 */
+
+.ex-2-square:active {
+    width: 100%;
+    transition: all 3s linear 0s;
+}
+
+/*  */
