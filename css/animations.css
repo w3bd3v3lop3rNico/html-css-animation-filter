@@ -119,3 +119,68 @@
         
     }
 }
+
+/* ex 13 */
+
+.ex-13-button:hover .ex-13-top-white {
+    animation : slide-3 2s ease-in-out 0s;
+}
+@keyframes slide-3 {
+    0% {
+      
+    }
+    20% {
+      left: 80%;
+      top: -10px;
+    }
+    40% {
+      left: 80%;
+      top: 60px;
+
+    }
+    60% {
+      left: -10px;
+      top: 60px;
+    }
+    80% {
+        left: -10px;
+        top: -10px;
+
+    }
+    100% {
+        top: -10px;
+        left: 10%;
+    }
+  }
+
+  .ex-13-button:hover .ex-13-bottom-white {
+    animation : slide-4 2s ease-in-out 0s;
+}
+@keyframes slide-4 {
+    0% {
+      
+    }
+    20% {
+      right: 80%;
+      bottom: -10px;
+    }
+    40% {
+      right: 80%;
+      bottom: 60px;
+
+    }
+    60% {
+      right: -10px;
+      bottom: 60px;
+    }
+    80% {
+        right: -10px;
+        bottom: -10px;
+
+    }
+    100% {
+        bottom: -10px;
+        right: 10%;
+    }
+  }
+  
