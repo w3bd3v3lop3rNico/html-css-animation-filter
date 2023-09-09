@@ -89,3 +89,33 @@
     }
 }
 
+/* ex 12 */
+
+.ex-12-button:hover .ex-12-top-white {
+    animation : slide-1 3s linear 0s;
+}
+@keyframes slide-1 {
+    0% {
+        left: 10%;
+    }
+    50% {
+        left: 70%;
+    }
+    100% {
+        
+    }
+}
+.ex-12-button:hover .ex-12-bottom-white {
+    animation : slide-2 3s linear 0s;   
+}
+@keyframes slide-2 {
+    0% {
+        right: 10%;
+    }
+    50% {
+        right: 70%;
+    }
+    100% {
+        
+    }
+}
