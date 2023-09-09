@@ -70,3 +70,22 @@
 		transform: rotate(1turn);
 	}
 }
+ /* ex 11 */
+
+ .ex-11-icon:hover {
+    
+    animation: spin 3s reverse 0s;
+
+}
+@keyframes spin {
+	0% {
+		
+	}
+    20%{
+        transform: rotate(0.75turn);
+    }
+    100% {
+
+    }
+}
+
