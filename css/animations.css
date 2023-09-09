@@ -17,3 +17,56 @@
     border-radius: 50%;
     transition: all 3s linear 0s;
 }
+/* ex 4 */
+
+.ex-4-square:hover {
+    opacity: 0;
+    transition: all 3s linear 0s;
+
+}
+
+/* ex 5 */
+.ex-5-square:hover {
+    transform: scale(2) ;
+    transition: all 1s linear 0s;
+}
+.ex-5-square:active {
+    transform: scale(0.5);
+    transition: all 1s linear 0s;
+}
+
+/* Ex 6 */
+.ex-6-img:hover {
+    filter: grayscale(100%);
+}
+
+/*  ex 7 */
+.ex-7-img:hover {
+    filter: grayscale(100%);
+    transition: all 3s linear 0s;
+}
+/* ex 8 */
+.ex-8-img:hover {
+    filter: sepia(50%);
+    border-radius: 5%;
+    transition: all 3s linear 0s;
+}
+/*  ex 9 */
+.ex-9-img:hover {
+    transform: scale(2);
+    filter: sepia(50%);
+    border-radius: 5%;
+    transition: all 3s linear 0s;
+}
+/* ex 10 */
+
+.ex-10-icon {
+    
+    animation: spin 1s linear infinite;
+
+}
+@keyframes spin {
+	0% {
+		transform: rotate(1turn);
+	}
+}
